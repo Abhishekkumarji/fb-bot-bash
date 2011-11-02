@@ -1,9 +1,8 @@
 #!/bin/bash
 #
-# BASH login & example
+# Facebook command line status update bot v1.0
 # Author: Luka Pusic <pusic93@gmail.com>
-# http://360percents.com
-# v1.0
+# http://360percents.com/posts/bash-script-to-update-facebook-status-linux-mac-os-x/
 #
 email="email@domain.com"
 pass="your_password"
