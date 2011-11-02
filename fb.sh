@@ -18,15 +18,15 @@ form_data=`echo "$loginpage" | sed -e 's/.*<form//' | sed -e 's/form>.*//' | tr 
 
 #FUNCTION PARSES FORM DATA LIKE HIDDEN INPUTS
 function parse_form() {
-	form_data="$1"
-	params=""
-	for (( i=1; i <= `echo "$form_data" | wc -l` ; i++ ))
-	do
-		name=`echo "$form_data" | sed -n "$i"p | tr ' ' "\n" | grep 'name' | cut -d '"' -f 2`
-		value=`echo "$form_data" | sed -n "$i"p | tr ' ' "\n" | grep 'value' | cut -d '"' -f 2`
-		params="$params$name=$value&"
-	done
-	echo "$params"
+    form_data="$1"
+    params=""
+        for (( i=1; i <= `echo "$form_data" | wc -l` ; i++ ))
+            do
+                name=`echo "$form_data" | sed -n "$i"p | tr ' ' "\n" | grep 'name' | cut -d '"' -f 2`
+                value=`echo "$form_data" | sed -n "$i"p | tr ' ' "\n" | grep 'value' | cut -d '"' -f 2`
+                params="$params$name=$value&"
+            done
+         echo "$params"
 }
 
 #LOGIN
