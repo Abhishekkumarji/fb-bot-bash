@@ -1,35 +1,33 @@
-****************** README ******************
+=== Command line Facebook status update bot v1.0 ===
 
-README DATE: Nov 2 2011
-AUTHOR: Luka Pusic <pusic93@gmail.com>
-WWW: http://360percents.com/posts/bash-script-to-update-facebook-status-linux-mac-os-x/
+Readme date: Nov 2 2011
+Contributors: lukapusic
+Author: Luka Pusic <pusic93@gmail.com>
+URI: http://360percents.com/posts/bash-script-to-update-facebook-status-linux-mac-os-x/
 
-LINCESE
+== Description ==
+Facebook status update bot updates your Facebook status without any API's, just with PHP's curl extension.
+
+
+== System requirements ==
+* unix like OS (works also on Mac OS X;)
+* curl
+
+== Instructions ==
+1. appy permissions: chmod +x ./fb.sh
+2. open fb.sh and edit email and password fields
+3. run it
+
+== Changelog ==
+*
+
+== Known issues ==
+* Facebook's new device checking causes this script to fail
+
+== License ==
 * ----------------------------------------------------------------------------
 * "THE BEER-WARE LICENSE" (Revision 42):
 * <pusic93@gmail.com> wrote this file. As long as you retain this notice you
 * can do whatever you want with this stuff. If we meet some day, and you think
 * this stuff is worth it, you can buy me a beer in return. Luka Pusic
 * ----------------------------------------------------------------------------
-
-Command line Facebook status update bot v1.0
-
-SYSTEM PREREQUISITES
--unix like OS (works also on Mac OS X;)
--curl
-
-INSTRUCTIONS
--appy permissions: chmod +x ./fb.sh
--open fb.sh and edit email and password fields
--run it
-
-NEW FEATURES
--
-
-BUG FIXES
--
-
-KNOWN ISSUES
--Facebook's trusted device checking causes this script to fail
-
-********************************************
