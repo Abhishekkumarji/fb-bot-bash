@@ -6,7 +6,7 @@ Author: Luka Pusic <pusic93@gmail.com>
 URI: http://360percents.com/posts/bash-script-to-update-facebook-status-linux-mac-os-x/
 
 == Description ==
-Facebook status update bot updates your Facebook status without any API's, just with PHP's curl extension.
+Facebook status update bot updates your Facebook status without any API's, just with curl, faking a human.
 
 
 == System requirements ==
