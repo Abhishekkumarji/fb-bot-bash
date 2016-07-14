@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Facebook command line status update bot v1.0
-# Author: Luka Pusic <pusic93@gmail.com>
+# Author: Luka Pusic <luka@pusic.com>
 #
 email="email@domain.com"
 pass="your_password"
