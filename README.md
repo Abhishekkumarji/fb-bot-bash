@@ -1,3 +1,6 @@
+# DEPRECATED
+
+
 # Command line Facebook status update bot v1.0
 
 Readme date: Nov 2 2011
